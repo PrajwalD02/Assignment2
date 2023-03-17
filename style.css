@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 98%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    padding: 1rem 36rem 1rem 1rem;
+}
+.google{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    text-decoration: none;
+}
+.input{
+    padding: 1rem 0rem 1rem 5rem;
+    font-size: 50px;
+}
+
+#input1{
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+.right-side{
+    float: right;
+    padding-top: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+#nav_bar {
+    float: right;
+}
+
+#nav_bar li{
+    display: inline-block;
+    padding: 8px;
+}
+
+.nav-links{
+    text-decoration: none;
+}
+
+h1.nav-links a:hover{
+    color: red;
+    
+}
+
+.section{
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    width: 45%;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size: 20px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    
+    
+}
+
+.logo{
+    display: grid;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    width: 100%;
+}
+
+.logo-img{
+    display: inline-flex;
+}
+.right-img{
+    display: grid;
+    float: right;
+}
+
+.heading{
+    display: block;
+}
+
+.new{
+    display: inline-block;
+}
+
+details > summary {
+    width: 100%;
+    border: 1px black;
+    border-style: outset;
+}
